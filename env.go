@@ -18,17 +18,17 @@ func GetCurrent() SKENV {
 // Helpers
 
 func IsDev() bool {
-	return current
+	return current == Development
 }
 
 func IsProd() bool {
-	return current
+	return current == Production
 }
 
 func IsSkaarOSDev() bool {
-	return current
+	return current == SkaarOSDevelopment
 }
 
 func IsSkaarOSProd() bool {
-	return current
+	return current == SkaarOSProduction
 }
