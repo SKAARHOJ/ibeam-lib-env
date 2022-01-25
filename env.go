@@ -32,3 +32,7 @@ func IsSkaarOSDev() bool {
 func IsSkaarOSProd() bool {
 	return current == SkaarOSProduction
 }
+
+func IsSkaarOS() bool {
+	return current == SkaarOSProduction || current == SkaarOSDevelopment
+}
